@@ -1,0 +1,8 @@
+name: Deploy on GitHub pages
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Deploy 🚀
+         uses: JamesIves/github-pages-deploy-action@v4
